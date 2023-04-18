@@ -39,7 +39,7 @@ def copy_file_and_create_info_file(src, dest_folder, hostname):
 
 def main():
     user_folders = ['Documents', 'Downloads', 'Desktop']
-    shared_folder = '\\\\s-amusdat-ile03\\cyber-review\\'
+    shared_folder = '\\\\s-amusdat-ile03\Cyber-Review\CyberHunt\Global Hunt\\'
     Path(shared_folder).mkdir(parents=True, exist_ok=True)
 
     hostname = socket.gethostname()
